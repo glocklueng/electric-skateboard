@@ -1,0 +1,86 @@
+Partlist
+
+Exported from design.brd at 1/9/15 8:57 AM
+
+EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value                          Package            Library              Position (inch)       Orientation
+
+C1       100nF                          RLC-0603           max-viz              (0.93 1.53)           R270
+C2       100nF                          RLC-0603           max-viz              (2.275 1.225)         R90
+C3       100nF                          RLC-0603           max-viz              (2.42 1.215)          R90
+C7       100nF                          RLC-0603           max-viz              (1.885 1.49)          R0
+C8       100nF                          RLC-0603           max-viz              (1.91 1.355)          R270
+C9       10nF                           RLC-0402           max-viz              (1.605 1.46)          R90
+C11      4.7uF                          RLC-0603           max-viz              (0.97 0.12)           R0
+C12      220nF                          RLC-0402           max-viz              (0.97 0.065)          R0
+C13      220nF                          RLC-0402           max-viz              (1.08 0.195)          R270
+C14      2.2uF                          RLC-0603           max-viz              (1.225 1.275)         R0
+C15      2.2uF                          RLC-0603           max-viz              (1.925 1.14)          R180
+C16      15pF                           RLC-0402           max-viz              (1.56 0.44)           R90
+C17      100nF                          RLC-0603           max-viz              (1.6 0.535)           R0
+C18      100nF                          RLC-0603           max-viz              (1.91 1.205)          R180
+C19      15pF                           RLC-0402           max-viz              (1.46 0.35)           R90
+C20      100nF                          RLC-0603           max-viz              (1.13 0.64)           R90
+C21      100nF                          RLC-0603           max-viz              (1.1 1.2)             R0
+C22      100nF                          RLC-0603           max-viz              (1.93 0.665)          R180
+C23      100nF                          RLC-0603           max-viz              (1.685 0.47)          R180
+C24      100nF                          RLC-0603           max-viz              (1.165 0.525)         R0
+D1       15V 1A                         SMB                diode                (0.475 1.505)         R180
+ESCA     ESCA                           1X03_LOCK_LONGPADS SparkFun-Connectors  (1.145 1.54)          R0
+ESCB     ESCB                           1X03_LOCK_LONGPADS SparkFun-Connectors  (1.495 1.505)         R270
+HALLA    HALLA                          1X03_LOCK          SparkFun-Connectors  (2.22 1.545)          R270
+HALLB    HALLB                          1X03_LOCK          SparkFun-Connectors  (2.38 1.545)          R270
+J1       ZX62D-B-5P8                    ZX62D-B-5P8        con-hirose-microusb  (0.06 1.41)           R270
+J2                                      1X01               SparkFun-Connectors  (2.37 0.8)            R0
+J3                                      1X01               SparkFun-Connectors  (0.78 0.51)           R0
+J4                                      1X01               SparkFun-Connectors  (0.9 0.51)            R0
+J5                                      1X01               SparkFun-Connectors  (2.37 0.9)            R0
+J6                                      1X01               SparkFun-Connectors  (0.78 0.61)           R0
+J7                                      1X01               SparkFun-Connectors  (0.9 0.61)            R0
+J8                                      1X01               SparkFun-Connectors  (2.37 1)              R0
+J9                                      1X01               SparkFun-Connectors  (0.78 0.71)           R0
+J10                                     1X01               SparkFun-Connectors  (0.9 0.71)            R0
+JTAG1    MINI-JTAG                      2X05_1.27MM_SMT    microbuilder         (0.57 1.065)          R270
+LCD1     PINS1-6                        1X06_LOCK_LONGPADS SparkFun-Connectors  (0.325 0.115)         R90
+LCD2     PINS11-16                      1X06_LOCK_LONGPADS SparkFun-Connectors  (0.095 0.115)         R90
+LED1     GREEN                          LED0603            max-viz              (0.465 1.33)          R270
+LED2     BG1111C                        LED0603            max-viz              (1.16 0.38)           R180
+LED3     BG1111C                        LED0603            max-viz              (1.24 0.38)           R180
+LED4     BG1111C                        LED0603            max-viz              (1.32 0.38)           R180
+LED5     GREEN                          LED0603            max-viz              (0.765 1.425)         R270
+PB0                                     1X01               SparkFun-Connectors  (2.405 0.5)           R0
+PB1                                     1X01               SparkFun-Connectors  (2.1 0.66)            R0
+PB2                                     1X01               SparkFun-Connectors  (2.2 0.66)            R0
+PC4                                     1X01               SparkFun-Connectors  (2.205 0.5)           R0
+PC5                                     1X01               SparkFun-Connectors  (2.305 0.5)           R0
+PE7                                     1X01               SparkFun-Connectors  (2.3 0.66)            R0
+PE8                                     1X01               SparkFun-Connectors  (2.4 0.66)            R0
+PE9                                     1X01               SparkFun-Connectors  (2.05 0.865)          R0
+PE10                                    1X01               SparkFun-Connectors  (2.15 0.865)          R0
+PE11                                    1X01               SparkFun-Connectors  (2.25 0.865)          R0
+PE12                                    1X01               SparkFun-Connectors  (2.245 1.02)          R0
+PE13                                    1X01               SparkFun-Connectors  (2.145 1.02)          R0
+R1       1.5k                           RLC-0402           max-viz              (2.2 1.225)           R270
+R2       1.5k                           RLC-0402           max-viz              (2.345 1.215)         R270
+R3       TRIMPOT                        TRIM-3386          adafruit             (0.635 0.235)         R270
+R4       499                            RLC-0402           max-viz              (0.585 1.33)          R180
+R5       250                            RLC-0402           max-viz              (0.895 1.425)         R180
+R13      100                            RLC-0402           max-viz              (0.35 1.195)          R180
+R16      10k                            RLC-0402           max-viz              (0.2 1.185)           R90
+R17      49.9                           RLC-0402           max-viz              (1.225 0.265)         R90
+R18      49.9                           RLC-0402           max-viz              (1.275 0.265)         R90
+R19      49.9                           RLC-0402           max-viz              (1.325 0.265)         R90
+R32      10k                            RLC-0402           max-viz              (1.12 0.8)            R180
+S1       RESET                          B3F-10XX           switch-omron         (0.18 0.965)          R90
+SPI1     SPI1                           1X06_LOCK_LONGPADS SparkFun-Connectors  (2.37 0.245)          R180
+U1       STM32F4_STM32F4V_100PIN_FOXCAR STM32F4_LQFP100    eskate-v1            (1.5 0.905)           R0
+U2       MICLDO                         SPARKFUN_SOT23-5   v1-cellphone         (0.81 1.53)           R270
+U3       MPU6000                        QFN.24.4X4         invensense           (1.74 1.4)            R90
+U4       HMC5883LSMD                    16LPCC             SparkFun-Sensors     (0.97 0.255)          R270
+UART2    UART2                          1X04_LOCK_LONGPADS SparkFun-Connectors  (2.07 0.11)           R0
+USART1   USART1                         1X04_LOCK_LONGPADS SparkFun-Connectors  (1.84 0.085)          R180
+USART3   USART3                         1X04_LOCK_LONGPADS SparkFun-Connectors  (2.03 1.25)           R90
+X1       25MHz 8Y                       8Y_25MHZCRYSTAL_8Y v2-rf-frontend-board (1.485 0.445)         R0
