@@ -7323,10 +7323,10 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 <wire x1="38.1" y1="-83.82" x2="-43.18" y2="-83.82" width="0.005" layer="94"/>
 <pin name="BOOT0" x="-38.1" y="78.74" length="middle" rot="R270"/>
 <pin name="NRST" x="-48.26" y="55.88" length="middle"/>
-<pin name="PA0" x="-48.26" y="-27.94" length="middle"/>
-<pin name="PA1" x="-48.26" y="-30.48" length="middle"/>
-<pin name="PA2" x="-48.26" y="-33.02" length="middle"/>
-<pin name="PA3" x="-48.26" y="-35.56" length="middle"/>
+<pin name="PA0" x="-48.26" y="-35.56" length="middle"/>
+<pin name="PA1" x="-48.26" y="-38.1" length="middle"/>
+<pin name="PA2" x="-48.26" y="-40.64" length="middle"/>
+<pin name="PA3" x="-48.26" y="-43.18" length="middle"/>
 <pin name="PA4" x="-48.26" y="12.7" length="middle"/>
 <pin name="PA5" x="-48.26" y="10.16" length="middle"/>
 <pin name="PA6" x="-48.26" y="7.62" length="middle"/>
@@ -7346,15 +7346,15 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 <pin name="PB4" x="43.18" y="5.08" length="middle" rot="R180"/>
 <pin name="PB5" x="43.18" y="7.62" length="middle" rot="R180"/>
 <pin name="PB6" x="-48.26" y="30.48" length="middle"/>
-<pin name="PB7" x="-48.26" y="-20.32" length="middle"/>
+<pin name="PB7" x="-48.26" y="-27.94" length="middle"/>
 <pin name="PB8" x="-48.26" y="-15.24" length="middle"/>
 <pin name="PB9" x="-48.26" y="-12.7" length="middle"/>
 <pin name="PB10" x="-48.26" y="20.32" length="middle"/>
 <pin name="PB11" x="-48.26" y="22.86" length="middle"/>
-<pin name="PB12" x="-48.26" y="-38.1" length="middle"/>
-<pin name="PB13" x="-48.26" y="-40.64" length="middle"/>
-<pin name="PB14" x="-48.26" y="-43.18" length="middle"/>
-<pin name="PB15" x="-48.26" y="-45.72" length="middle"/>
+<pin name="PB12" x="-48.26" y="-45.72" length="middle"/>
+<pin name="PB13" x="-48.26" y="-48.26" length="middle"/>
+<pin name="PB14" x="-48.26" y="-50.8" length="middle"/>
+<pin name="PB15" x="-48.26" y="-53.34" length="middle"/>
 <pin name="PC0" x="43.18" y="-55.88" length="middle" rot="R180"/>
 <pin name="PC1" x="43.18" y="-53.34" length="middle" rot="R180"/>
 <pin name="PC2" x="43.18" y="-50.8" length="middle" rot="R180"/>
@@ -7364,8 +7364,8 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 <pin name="PC6" x="43.18" y="-25.4" length="middle" rot="R180"/>
 <pin name="PC7" x="43.18" y="-22.86" length="middle" rot="R180"/>
 <pin name="PC8" x="-48.26" y="-5.08" length="middle"/>
-<pin name="PC9" x="-48.26" y="-22.86" length="middle"/>
-<pin name="PC10" x="-48.26" y="-25.4" length="middle"/>
+<pin name="PC9" x="-48.26" y="-30.48" length="middle"/>
+<pin name="PC10" x="-48.26" y="-33.02" length="middle"/>
 <pin name="PC11" x="-48.26" y="-7.62" length="middle"/>
 <pin name="PC12" x="-48.26" y="0" length="middle"/>
 <pin name="PC13" x="43.18" y="-76.2" length="middle" rot="R180"/>
@@ -7379,17 +7379,17 @@ Source: http://www.maxstream.net/products/xbee/datasheet_XBee_OEM_RF-Modules.pdf
 <pin name="PD5" x="43.18" y="-2.54" length="middle" rot="R180"/>
 <pin name="PD6" x="43.18" y="0" length="middle" rot="R180"/>
 <pin name="PD7" x="43.18" y="2.54" length="middle" rot="R180"/>
-<pin name="PD8" x="-48.26" y="-50.8" length="middle"/>
-<pin name="PD9" x="-48.26" y="-53.34" length="middle"/>
-<pin name="PD10" x="-48.26" y="-55.88" length="middle"/>
+<pin name="PD8" x="-48.26" y="-55.88" length="middle"/>
+<pin name="PD9" x="-48.26" y="-58.42" length="middle"/>
+<pin name="PD10" x="-48.26" y="-60.96" length="middle"/>
 <pin name="PD11" x="43.18" y="-38.1" length="middle" rot="R180"/>
 <pin name="PD12" x="43.18" y="-35.56" length="middle" rot="R180"/>
 <pin name="PD13" x="43.18" y="-33.02" length="middle" rot="R180"/>
 <pin name="PD14" x="43.18" y="-30.48" length="middle" rot="R180"/>
 <pin name="PD15" x="43.18" y="-27.94" length="middle" rot="R180"/>
 <pin name="PDR_ON" x="-33.02" y="78.74" length="middle" rot="R270"/>
-<pin name="PE0" x="43.18" y="10.16" length="middle" rot="R180"/>
-<pin name="PE1" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="PE0" x="-48.26" y="-20.32" length="middle"/>
+<pin name="PE1" x="-48.26" y="-22.86" length="middle"/>
 <pin name="PE2" x="43.18" y="-68.58" length="middle" rot="R180"/>
 <pin name="PE3" x="43.18" y="-66.04" length="middle" rot="R180"/>
 <pin name="PE4" x="43.18" y="-63.5" length="middle" rot="R180"/>
