@@ -1,0 +1,66 @@
+Partlist
+
+Exported from electric-skateboard-v2.brd at 5/16/15 12:24 PM
+
+EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part       Value             Package                      Library                 Position (inch)       Orientation
+
+BATTERY_IN BATT              SCREWTERMINAL-5MM-2          SparkFun-Connectors     (0.1025 1.6975)       R270
+C1         10u               RLC-1210                     max-viz                 (0.37 1.605)          R270
+C2         100nF             RLC-0402                     max-viz                 (0.76 1.28)           R90
+C3         10u               RLC-1210                     max-viz                 (1.099 1.245)         R270
+C4         10u               RLC-1210                     max-viz                 (0.65 1.25)           R270
+C5         100nF             RLC-0402                     max-viz                 (1.18 0.265)          R180
+C6         100nF             RLC-0402                     max-viz                 (1.295 0.54)          R0
+C7         10nF              RLC-0402                     max-viz                 (1.375 0.33)          R270
+C8         100nF             RLC-0402                     max-viz                 (1.255 0.23)          R270
+C9         100nF             RLC-0402                     max-viz                 (1.802 0.679)         R90
+C14        2.2uF             RLC-0805                     max-viz                 (1.41 1.5)            R0
+C15        2.2uF             RLC-0805                     max-viz                 (2.12 1.44)           R270
+C16        15pF              RLC-0402                     max-viz                 (1.9 0.54)            R90
+C17        100nF             RLC-0402                     max-viz                 (1.56 1.52)           R270
+C18        100nF             RLC-0402                     max-viz                 (2.195 1.435)         R270
+C19        15pF              RLC-0402                     max-viz                 (1.55 0.48)           R0
+C20        100nF             RLC-0402                     max-viz                 (1.706 0.69)          R90
+C21        100nF             RLC-0402                     max-viz                 (1.9445 0.7095)       R90
+C22        100nF             RLC-0402                     max-viz                 (2.1925 0.9375)       R180
+C23        100nF             RLC-0402                     max-viz                 (1.4105 0.8165)       R0
+C24        100nF             RLC-0402                     max-viz                 (1.884 0.7095)        R90
+CTS1                         CTS406                       adafruit                (1.74 0.53)           R180
+D1         20V 1A            SMADIODE                     adafruit                (0.465 1.23)          R270
+ESCA                         1X03_LOCK_LONGPADS           SparkFun-Connectors     (0.115 0.615)         R90
+ESCB                         1X03_LOCK_LONGPADS           SparkFun-Connectors     (0.105 0.21)          R90
+HALLA                        1X03_LOCK_LONGPADS           SparkFun-Connectors     (0.45 0.13)           R0
+HALLB                        1X03_LOCK_LONGPADS           SparkFun-Connectors     (0.45 0.342)          R0
+J1         ZX62D-B-5P8       ZX62D-B-5P8                  con-hirose-microusb     (0.07 1.115)          R270
+JP8        FEMALE 2x3        2X3                          SparkFun-Connectors     (1.83 0.255)          R180
+JTAG1      MINI-JTAG         MICROBUILDER_2X05_1.27MM_SMT foxcar-control-board-v1 (2.15 0.215)          R0
+LCD                          SCREWTERMINAL-3.5MM-4_LOCK   SparkFun-Connectors     (1.88 1.715)          R180
+LED1       GREEN             LED0603                      max-viz                 (0.49 1.625)          R0
+LED2       GREEN             LED0603                      max-viz                 (1.235 1.317)         R90
+LED6       GREEN             LED0603                      max-viz                 (0.32 1.415)          R180
+PRESSA                       1X04_LOCK_LONGPADS           SparkFun-Connectors     (0.46 0.55)           R0
+PRESSB                       1X04_LOCK_LONGPADS           SparkFun-Connectors     (0.46 0.765)          R0
+Q1                           SOT-23                       max-viz                 (0.305 0.75)          R270
+Q2                           SOT-23                       max-viz                 (0.295 0.39)          R270
+R3         50                RLC-0402                     max-viz                 (0.42 1.45)           R180
+R4         50                RLC-0402                     max-viz                 (1.322 1.298)         R90
+R5         10k               RLC-0402                     max-viz                 (1.28 0.91)           R180
+R6         10k               RLC-0402                     max-viz                 (1.28 0.985)          R180
+R7                           CAP-OPTION                   wicker                  (0.305 0.615)         R0
+R8                           CAP-OPTION                   wicker                  (0.295 0.24)          R0
+R9         10k               RLC-0402                     max-viz                 (0.37 0.155)          R90
+R10        10k               RLC-0402                     max-viz                 (0.38 0.28)           R270
+R11        270               RLC-0402                     max-viz                 (0.49 1.515)          R90
+R12        1k                RLC-0402                     max-viz                 (0.99 0.58)           R90
+R13        100               RLC-0402                     max-viz                 (1.95 0.26)           R180
+R14        1k                RLC-0402                     max-viz                 (0.99 0.675)          R270
+R15        10k               RLC-0402                     max-viz                 (1.48 0.15)           R270
+R17        10k               RLC-0402                     max-viz                 (1.48 0.265)          R90
+U1         SPX29300          TO263-5                      microbuilder            (1.0275 1.6025)       R270
+U3         MPU-9150          QFN-24-NP                    SparkFun-Sensors        (1.235 0.4)           R0
+U4         AAT3221IGV-3.3-T1 SOT23-5                      SparkFun-DigitalIC      (0.925 1.18)          R270
+U5         STM32F4V          STM32F4_LQFP100              foxcar-control-board-v1 (1.7575 1.1275)       R0
