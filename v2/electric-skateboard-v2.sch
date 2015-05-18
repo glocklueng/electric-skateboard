@@ -5606,6 +5606,115 @@ Used on single circuit logic gates</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="GeekAmmo">
+<description>&lt;h3&gt;GeekAmmo  Library&lt;/h3&gt;
+
+These are parts used by the GeekAmmo company (now part of SparkFun Electronics)!
+
+ If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt;Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="7914G">
+<description>&lt;b&gt;Bourns 7914G 4 mm SMD Sealed Key Switch&lt;/b&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+http://www.bourns.com/data/global/pdfs/7914.pdf</description>
+<circle x="1.27" y="2.7432" radius="1" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0" dx="1.27" dy="1.27" layer="1" rot="R90"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="0" y="5.4864" dx="1.27" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="2.54" y="5.4864" dx="1.27" dy="1.27" layer="1" rot="R90"/>
+<text x="-1.27" y="0" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="0" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="TAC-SWITCH-PTH">
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.524" shape="long"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TACTILE-SWITCH">
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-4.064" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.318" y="-5.334" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TACTILE-SWITCH">
+<description>&lt;B&gt;Tactile Switch 4 Pins, SPST NO&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="TACTILE-SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-7914G" package="7914G">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PTH" package="TAC-SWITCH-PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5729,6 +5838,8 @@ Used on single circuit logic gates</description>
 <part name="CTS1" library="adafruit" deviceset="CRYSTAL" device="CTS406"/>
 <part name="DIG_GND16" library="SparkFun-Aesthetics" deviceset="GND" device="" value="GND"/>
 <part name="U4" library="SparkFun-DigitalIC" deviceset="INVERTER" device="_SOT23-5" value="AAT3221IGV-3.3-T1"/>
+<part name="SW1" library="GeekAmmo" deviceset="TACTILE-SWITCH" device="-PTH" value=""/>
+<part name="DIG_GND17" library="SparkFun-Aesthetics" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -5785,7 +5896,7 @@ off-board and only attach to the desired voltage pin. </text>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="20.32" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="134.62" y1="20.32" x2="-5.08" y2="20.32" width="0.1524" layer="97" style="shortdash"/>
 <text x="70.104" y="113.03" size="1.778" layer="97">Inertial Measurement: Compass, Gyro, and Accelerometer</text>
-<text x="154.94" y="162.56" size="1.778" layer="97">Note: NRST has an
+<text x="147.32" y="162.56" size="1.778" layer="97">Note: NRST has an
 internal pull-up resistor
 but does need the 
 debounce capacitor.</text>
@@ -5823,6 +5934,7 @@ i2C input pins are 5V-tolerant.</text>
 <wire x1="195.58" y1="22.86" x2="195.58" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="195.58" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
 <text x="146.304" y="57.15" size="1.778" layer="97">JTAG Programming</text>
+<text x="104.14" y="160.02" size="1.778" layer="97">Press button to reset.</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="248.92" y="114.3"/>
@@ -5924,6 +6036,8 @@ i2C input pins are 5V-tolerant.</text>
 <instance part="DIG_GND14" gate="1" x="172.72" y="121.92" rot="MR0"/>
 <instance part="CTS1" gate="G$1" x="325.12" y="187.96"/>
 <instance part="DIG_GND16" gate="1" x="325.12" y="180.34"/>
+<instance part="SW1" gate="G$1" x="121.92" y="167.64"/>
+<instance part="DIG_GND17" gate="1" x="132.08" y="160.02" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -6331,6 +6445,16 @@ i2C input pins are 5V-tolerant.</text>
 <pinref part="CTS1" gate="G$1" pin="GND"/>
 <pinref part="DIG_GND16" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="SW1" gate="G$1" pin="4"/>
+<wire x1="127" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="165.1" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="3"/>
+<wire x1="127" y1="167.64" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="167.64" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
+<junction x="132.08" y="165.1"/>
+<pinref part="DIG_GND17" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="FS_DP" class="0">
 <segment>
@@ -6643,15 +6767,24 @@ i2C input pins are 5V-tolerant.</text>
 <label x="185.42" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="180.34" y="177.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="104.14" y="177.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U5" gate="G$1" pin="NRST"/>
-<wire x1="180.34" y1="177.8" x2="185.42" y2="177.8" width="0.15" layer="91"/>
+<wire x1="104.14" y1="177.8" x2="111.76" y2="177.8" width="0.15" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="177.8" x2="185.42" y2="177.8" width="0.15" layer="91"/>
 <wire x1="185.42" y1="177.8" x2="195.58" y2="177.8" width="0.15" layer="91"/>
 <wire x1="195.58" y1="177.8" x2="195.58" y2="170.18" width="0.15" layer="91"/>
 <wire x1="195.58" y1="170.18" x2="200.66" y2="170.18" width="0.15" layer="91"/>
 <wire x1="185.42" y1="175.26" x2="185.42" y2="177.8" width="0.1524" layer="91" style="longdash"/>
 <junction x="185.42" y="177.8"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="167.64" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="167.64" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
+<junction x="111.76" y="177.8"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="165.1" x2="111.76" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="165.1" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<junction x="111.76" y="167.64"/>
 </segment>
 </net>
 <net name="N$5" class="0">

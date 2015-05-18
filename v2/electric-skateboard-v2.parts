@@ -1,6 +1,6 @@
 Partlist
 
-Exported from electric-skateboard-v2.brd at 5/16/15 12:24 PM
+Exported from electric-skateboard-v2.brd at 5/17/15 8:59 PM
 
 EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
 
@@ -13,10 +13,10 @@ C1         10u               RLC-1210                     max-viz               
 C2         100nF             RLC-0402                     max-viz                 (0.76 1.28)           R90
 C3         10u               RLC-1210                     max-viz                 (1.099 1.245)         R270
 C4         10u               RLC-1210                     max-viz                 (0.65 1.25)           R270
-C5         100nF             RLC-0402                     max-viz                 (1.18 0.265)          R180
-C6         100nF             RLC-0402                     max-viz                 (1.295 0.54)          R0
-C7         10nF              RLC-0402                     max-viz                 (1.375 0.33)          R270
-C8         100nF             RLC-0402                     max-viz                 (1.255 0.23)          R270
+C5         100nF             RLC-0402                     max-viz                 (1.18 0.445)          R180
+C6         100nF             RLC-0402                     max-viz                 (1.345 0.7)           R0
+C7         10nF              RLC-0402                     max-viz                 (1.375 0.51)          R270
+C8         100nF             RLC-0402                     max-viz                 (1.255 0.41)          R270
 C9         100nF             RLC-0402                     max-viz                 (1.802 0.679)         R90
 C14        2.2uF             RLC-0805                     max-viz                 (1.41 1.5)            R0
 C15        2.2uF             RLC-0805                     max-viz                 (2.12 1.44)           R270
@@ -60,7 +60,8 @@ R13        100               RLC-0402                     max-viz               
 R14        1k                RLC-0402                     max-viz                 (0.99 0.675)          R270
 R15        10k               RLC-0402                     max-viz                 (1.48 0.15)           R270
 R17        10k               RLC-0402                     max-viz                 (1.48 0.265)          R90
+SW1                          TAC-SWITCH-PTH               GeekAmmo                (1.22 0.17)           R0
 U1         SPX29300          TO263-5                      microbuilder            (1.0275 1.6025)       R270
-U3         MPU-9150          QFN-24-NP                    SparkFun-Sensors        (1.235 0.4)           R0
+U3         MPU-9150          QFN-24-NP                    SparkFun-Sensors        (1.235 0.58)          R0
 U4         AAT3221IGV-3.3-T1 SOT23-5                      SparkFun-DigitalIC      (0.925 1.18)          R270
 U5         STM32F4V          STM32F4_LQFP100              foxcar-control-board-v1 (1.7575 1.1275)       R0
