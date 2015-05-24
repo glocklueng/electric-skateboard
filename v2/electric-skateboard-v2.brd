@@ -1270,7 +1270,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="32.8168" y="31.5722" size="0.6096" layer="27" rot="R90"/>
 </element>
 <element name="U1" library="microbuilder" package="TO263-5" value="SPX29300" x="26.0985" y="40.7035" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.2015" y="46.1065" size="0.762" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="20.9635" y="45.5985" size="0.762" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="21.8985" y="45.2035" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="max-viz" package="RLC-1210" value="10u" x="16.51" y="31.75" smashed="yes" rot="R270">
